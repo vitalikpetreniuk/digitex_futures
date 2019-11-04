@@ -10,7 +10,7 @@
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
@@ -31,7 +31,7 @@
 			<div class="header-in">
 				<div class="header-left">
 					<div class="logo">
-						<a href="index.html">
+						<a href="#">
 							<img src="img/logo.svg" alt="">
 						</a>
 					</div>
@@ -84,11 +84,12 @@
 					<a href="#" class="sign-up">Log in</a>
 					<a href="buy.html" class="btn">Buy DGTX</a>
 				</div>
+				<button type="button" class="header-toggle"><span></span></button>
 			</div>
 		</div>
 	</header>
 	<div class="body">
-		<div class="page-top" style="background-image: url('img/news-in.jpg')">
+		<div class="page-top page-top-new" style="background-image: url('img/news-in.jpg')">
 			<div class="container narrow">
 				<div class="page-top-in"></div>
 			</div>
@@ -98,6 +99,7 @@
 				<div class="article-in">
 					<div class="article-side">
 						<div class="socials">
+							<span class="visible-md">Share this news via:</span>
 							<a href="#">
 								<img src="img/icon-fb.svg" alt="">
 							</a>
@@ -111,12 +113,13 @@
 					</div>
 					<div class="article-body">
 						<div class="article-top">
-							<div>05 August 19</div>
-							<div>by Christina Comben</div>
-							<div>DIGITEX Futures</div>
+							<div class="article-date">05 August 19</div>
+							<div class="article-author hidden-sm">by Christina Comben</div>
+							<div class="article-theme">DIGITEX Futures</div>
 						</div>
 						<div class="article-cont">
 							<h4>Recap AMA on the Digitex Public Testnet Launch</h4>
+							<div class="article-author visible-sm">DIGITEX Futures</div>
 							<p>Setting the mood is a very important step for any design project. It helps designers and stakeholders get on the same page for the visual aspects of the project. In UX Design and product design a mood board is a collage of images, fonts, interactions, features, icons, and ui elements to communicate the artistic</p>
 							<p>Just because someone slams your work, even in a hateful way, does not mean they are wrong, or somehow against you. This sounds like a contradiction, but it’s not. The problem with criticism isn’t always what it said, but how it is said.</p>
 							<p>You may need time and space for a clearer perspective to review the criticism. Your critic comes to your topic with fresh eyes. Really listen! Try to hear the merits of the criticism. Think about any changes you can make that will address your critic’s concerns.</p>
@@ -141,6 +144,14 @@
 							<p>The Apple Watch is hardly a failure, but its sluggish takeoff reveals the cracks in the company’s mythology</p>
 						</div>
 					</div>
+				</div>
+				<div class="cb-arrows static">
+					<a href="#" class="cb-prev">
+						<span>The Latest Digitex Development Report — Testing, Testing & More Testing!</span>
+					</a>
+					<a href="#" class="cb-next">
+						<span>The Digitex Mission: To Create More Winning Traders</span>
+					</a>
 				</div>
 				<h5>More news</h5>
 				<div class="news-list">
@@ -197,8 +208,8 @@
 		<div class="container">
 			<div class="footer-in">
 				<div class="footer-left">
-					<div class="logo">
-						<a href="index.html">
+					<div class="logo hidden-sm">
+						<a href="#">
 							<img src="img/logo.svg" alt="">
 						</a>
 					</div>
@@ -242,7 +253,7 @@
 								</a>
 							</li>
 							<li class="bold">
-								<a href="#">
+								<a href="press.html">
 									<b>Press</b>
 								</a>
 							</li>
@@ -251,9 +262,19 @@
 									<b>Knowledge Base</b>
 								</a>
 							</li>
+							<li class="bold visible-sm">
+								<a href="about.html">
+									<b>About us</b>
+								</a>
+							</li>
+							<li class="bold visible-sm">
+								<a href="contacts.html">
+									<b>Contact us</b>
+								</a>
+							</li>
 						</ul>
 					</div>
-					<div class="menu-item">
+					<div class="menu-item hidden-sm">
 						<ul>
 							<li class="bold">
 								<a href="about.html">
@@ -274,7 +295,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="menu-item">
+					<div class="menu-item hidden-sm">
 						<ul>
 							<li class="bold">
 								<a href="contacts.html">
@@ -290,7 +311,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="menu-item">
+					<div class="menu-item hidden-sm">
 						<ul>
 							<li class="bold"></li>
 							<li>
@@ -309,8 +330,23 @@
 					</div>
 				</div>
 			</div>
+			<div class="menu-item visible-sm">
+				<ul>
+					<li class="bold">
+						<a href="#">
+							<b>Terms & Privacy</b>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="copyright visible-sm">© 2018 — 2020. All rights reserved</div>
 			<div class="footer-bottom">
-				<div class="copyright">© 2019 Digitex</div>
+				<div class="copyright hidden-sm">© 2019 Digitex</div>
+				<div class="logo visible-sm">
+					<a href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+				</div>
 				<div class="development">
 					<a href="#">
 						<img src="img/dev.svg" alt="">
